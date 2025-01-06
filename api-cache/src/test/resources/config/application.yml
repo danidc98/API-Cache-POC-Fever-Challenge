@@ -1,0 +1,17 @@
+server:
+  port: 8778
+
+management:
+  endpoints:
+    web:
+      base-path: /
+#  endpoint:
+#    health:
+#      show-details: always
+#      db.enabled: true
+#      github.enabled: true
+#      ping.enabled: true
+#      kafka.enabled: true
+#      diskSpace.enabled: false
+
+provider.url: "https://provider.code-challenge.feverup.com/api/events"
